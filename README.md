@@ -89,8 +89,8 @@ All four models perform extremely well on this dataset (the mushroom dataset is 
 
 | Model | Accuracy |
 |---|---|
-| Random Forest | ~100% |
-| Decision Tree | ~100% |
+| Random Forest | ~95% |
+| Decision Tree | ~95% |
 | Logistic Regression | ~95%+ |
 | SVM (linear) | ~98%+ |
 
@@ -128,8 +128,7 @@ and enter your mushroom's features when prompted.
 python/
 ├── data/
 │   ├── mushrooms.csv        # Main dataset used in this project
-│   ├── diabetes-1.csv       # Other datasets (not used here)
-│   └── lr-Real-estate(1).csv
+│   
 ├── project.ipynb            # Main Jupyter notebook
 └── virtual_env/             # Python virtual environment
 ```
